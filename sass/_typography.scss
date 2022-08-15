@@ -1,0 +1,118 @@
+/* TYPOGRAPHY */
+
+@import '../sass/_variables.scss';
+@import '../sass/_mixins&includes.scss';
+
+body {
+	width: 1600px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	
+}
+h1 {
+	display: inline-block;
+}
+h2 {
+	color: $color-d-grey;
+	font-size: $fs-150;
+	padding: 0 0 10px 100px;
+	font-family: $font;
+	font-weight: bold;
+}
+h3 {
+	color: $color-d-grey;
+	font-size: $fs-45;
+	font-family: $font;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+h4 {
+	font-family: $font;
+	padding-top: 20px;
+	font-size: $fs-18;
+	color: $color-m-white;
+}
+h5 {
+	color: $color-d-grey;
+	font-size: $fs-20;
+	font-family: $font;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+h6 {
+	font: $font;
+	color: #888888;
+	font-size: $fs-15;
+}
+p {
+	font: $font;
+	&:last-child {
+		margin: 0;
+	}
+}
+strong, b {
+	font-weight: normal;
+	font-family: $font;
+	font-size: $fs-15;
+	color: #000000;
+	
+	i, em {
+		
+	}
+}
+
+pre {
+	overflow: hidden;
+}
+i, em, cite, address {
+	font-style: normal;
+	
+	strong, b {
+	
+	}
+}
+a {
+	font-family: $font;
+	font-size: $fs-15;
+	color: $color-m-grey;
+	text-decoration: none;
+	&:hover {
+		opacity: 0.8;
+		filter: alpha(opacity=50);
+		zoom: 1;
+	}
+	&:active,
+	&:focus {
+		
+	}
+	&[href^="tel"],
+	&[href^="fax"] {
+		
+	}
+}
+
+img,
+picture {
+	margin: 0;
+	max-width: 100%;
+}
+
+
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 5px;
+	@include clearfix;
+}

@@ -1,0 +1,55 @@
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+@mixin transition(
+  $properties: all,
+  $duration: .5s,
+  $method: ease,
+  $delay: 0s) {
+  $value: ();
+  @each $property in $properties {
+    @if length($value) > 0 {
+      $value: append($value, unquote(",") #{$property} $duration $method $delay);
+    }
+    @else {
+      $value: append($value, #{$property} $duration $method $delay);
+    }
+  }
+  transition: $value;
+}
+//	@include flex(null, center, center);
+@mixin flex($direction: normal, $justify: normal, $align: normal) {
+  @include flex-direction($direction);
+  @include flex-justify($justify);
+  @include flex-align($align);
+}
+
+@mixin flex-direction($direction: normal) {
+  flex-direction: $direction;
+}
+@mixin flex-align($align: center) {
+  align-items: $align;
+}
+
+@mixin flex-justify($justify: space-between) {
+  justify-content: $justify;
+}
+
+@mixin d-flex {
+  display: flex;
+}
+
+@mixin p-abs{
+  position: absolute;
+}
+
+@mixin p-rel {
+  position: relative;
+}

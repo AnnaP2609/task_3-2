@@ -1,0 +1,124 @@
+@import '../sass/_variables.scss';
+@import '../sass/_mixins&includes.scss';
+//----------------------------------------------------//
+// FORMS                                              //
+//----------------------------------------------------//
+
+/* input */
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=datetime],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+select,
+textarea {
+  
+}
+
+input[type=submit],
+button[type=submit] {
+}
+
+.input {
+}
+
+.btn {
+ 
+}
+
+input {
+  border: 0;
+  background: #ffffff;
+  font-size: 15px;
+  padding: 15px 20px;
+  margin: 15px;
+  width: 120px;
+}
+
+.but-a {
+  color: #000000;
+  font-size: $fs-15;
+  font-family: $font;
+}
+
+.button {
+  background: #82f4d3;
+  text-align: center;
+  padding: 15px;
+  width: 145px;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.all-but {
+  font-family: $font;
+  padding: 20px 25px;
+  background: $bg-blue;
+  border: 0;
+  font-weight: bold;
+  width: 200px;
+  color: $color-l-black;
+}
+
+.but_1 {
+  box-shadow: -16px 16px 0px #e9e9e9, -18px 18px 0px #61e9c2, -18px 14px 0px #61e9c2, -14px 18px 0px #61e9c2;
+  margin: 0 205px;
+
+}
+
+.but_2 {
+  @include p-rel;
+  left: 58%;
+  top: 50px;
+  box-shadow: -16px -16px 0px #fff, -18px -18px 0px #61e9c2, -18px -14px 0px #61e9c2, -14px -18px 0px #61e9c2;
+  font-weight: bold;
+  margin: 15px 60px 500px;
+}
+
+.but_3 {
+  @include p-rel;
+  left: 0;
+  top: 60px;
+  box-shadow: -16px -16px 0px #fff, -18px -18px 0px #61e9c2, -18px -14px 0px #61e9c2, -14px -18px 0px #61e9c2;
+}
+
+.but_4 {
+  @include p-rel;
+  left: 350px;
+  top: 60px;
+  box-shadow: -16px -16px 0px #fff, -18px -18px 0px #61e9c2, -18px -14px 0px #61e9c2, -14px -18px 0px #61e9c2;
+  margin-top: 30px;
+}
+
+.but_5 {
+  padding: 10px 15px;
+  width: 100px;
+}
+
+
+
+// adaptive
+@media (max-width: 1036px) {
+  
+}
+
+@media (max-width: 925px) {
+  
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 320px) {
+  
+}
