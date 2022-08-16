@@ -235,10 +235,6 @@ section {
   padding-top: 300px;
 }
 
-.hero {
-  background: url("../img/hero.png") no-repeat;
-}
-
 .vertical-text {
   position: absolute;
   top: 900px;
@@ -280,34 +276,6 @@ section {
   color: $color-blue;
   font-weight: 700;
 }
-
-.menu-btn {
-  width: 55px;
-  height: 55px;
-  position: relative;
-  z-index:2;
-  overflow: hidden;
-  background: #0a0a0a;
-  border-radius: 50%;
-}
-.menu-btn span {
-  width: 30px;
-  height: 3px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ffffff;
-  transition: all 0.5s;
-}
-.menu-btn span:nth-of-type(2) {
-  top: calc(50% - 5px);
-}
-.menu-btn span:nth-of-type(3) {
-  top: calc(50% + 5px);
-}
-
-
 
 .bg_b {
   @include p-abs;
