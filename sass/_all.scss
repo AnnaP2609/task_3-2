@@ -36,6 +36,7 @@
   overflow: hidden;
   background: #0a0a0a;
   border-radius: 50%;
+  cursor: pointer;
 }
 .menu-btn span {
   width: 25px;
@@ -478,4 +479,8 @@ section {
 .border-bottom {
   border-bottom: 1px solid $color-d-white;
   margin-bottom: 20px;
+}
+
+.review-holder {
+  width: 100%;
 }

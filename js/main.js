@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	initSlider();
+	initMenu();
 });
 function initSlider() {
 	'use strict;';
@@ -17,5 +18,16 @@ function initSlider() {
 				},
 			},
 		],
+	});
+}
+
+function initMenu() {
+	const navigation = $('.navigation-list'),
+		toggleBtn = $('.menu-btn');
+	toggleBtn.on({
+		click: function () {
+			$(this).toggleClass('open');
+			navigation.toggleClass('visible');
+		},
 	});
 }
