@@ -11,13 +11,6 @@
   color: $color-black;
 }
 
-.logo {
-  font-size: $fs-25;
-  color: $color-blue;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 .navigation {
   float: right;
 }
@@ -166,38 +159,9 @@ section {
   margin-right: 10px;
 }
 
-.mar {
-  margin-right: 10px;
-}
-
-.mar-198 {
-  margin-right: 200px;
-}
-
-.mar-30 {
-  margin-right: 30px;
-}
-
-.mar-t-40 {
-  margin-top: 40px;
-}
-
-.mar-t-20 {
-  margin-top: 20px;
-}
-
-.pad-65 {
-  padding-right: 63px;
-}
-
 .pad-200 {
   padding-right: 200px;
 }
-
-.pad-r-100 {
-  padding-right: 120px;
-}
-
 
 .pad-120 {
   padding: 0 115px;
@@ -205,14 +169,6 @@ section {
 
 .pad-20 {
   padding: 0 20px;
-}
-
-.pad {
-  padding: 100px 100px 100px 230px;
-}
-
-.pad-new {
-  padding: 100px 100px 0px 230px;
 }
 
 .pad-bot {
@@ -225,14 +181,6 @@ section {
 
 .pad-50 {
   padding: 50px 15px;
-}
-
-.pad-55 {
-  padding: 55px 15px;
-}
-
-.pad-t-300 {
-  padding-top: 300px;
 }
 
 .vertical-text {
@@ -254,11 +202,6 @@ section {
 
 .v-al-bot {
   vertical-align: bottom;
-}
-
-.v-al-mid {
-  height: 55px;
-  vertical-align: middle;
 }
 
 .w-35 {
@@ -290,10 +233,6 @@ section {
   background: $bg-l-grey;
   height: 305px;
   width: 250px;
-}
-
-.bg-line {
-  background: $bg-l-grey;
 }
 
 .p-rel {
@@ -448,38 +387,6 @@ section {
 .bg-grey {
   padding: 100px;
   background: #f8f8f8;
-}
-
-.p-grey-block {
-  font-family: $font;
-  font-size: $fs-15;
-  color: $color-d-white;
-}
-
-.d-block-25 {
-  width: 25%;
-  height: auto;
-}
-
-.d-block-50 {
-  width: 810px;
-  margin: 0 300px
-}
-
-.arrow {
-  @include p-abs;
-  top: 3400px;
-  left: 250px;
-}
-
-.arrow-2 {
-  @include p-abs;
-  top: 3400px;
-  left: 1450px;
-}
-
-.w-200 {
-  width: 150px;
 }
 
 .prof {
